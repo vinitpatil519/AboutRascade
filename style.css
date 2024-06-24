@@ -7,6 +7,7 @@
   color: white;
 }
 
+
 html,
 body {
   height: 100%;
@@ -68,23 +69,128 @@ body {
 .para {
   font-size: 20px;
 }
+ @media screen and (min-width:650px) {
+  .raslogomob,
+.vitlogomob,
+.rascadelogomob{
+  display: none;
+}
+
+}
+
+
 
 /*MOBILE FRAME*/
 
-/* @media (max-width: 600px) {
-  .text {
-    font-size: 15px;
-    background-color: #222;
-  }
-  .rascadelogo {
-    z-index: 2;
+   @media (max-width: 600px) {
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+  page1,
+.page2,
+.page3 {
+  width: 100%;
+  background-color: black;
+}
+.images{
+  display: none;
+}
+
+
+
+  .aboutrascade24{
     position: absolute;
-    left: -270px;
-    top: -10px;
+    top: auto;
+    left:40%;
+    font-size: 20px;
+    white-space: nowrap
   }
-  .aboutrascade24 {
-    z-index: 4;
+  #para1{
+    width: 227px;
+    height: 188px;
     position: absolute;
-    top: -100px;
+    left: 60%;
+    top: 40px;
+    font-size: 10px;
+    font-family: "Inter";
   }
-} */
+  .rascadelogomob{
+    width: 144px;
+    height: 138px;
+    position: absolute;
+    top: 40px;
+    left: -12px;
+    
+  }
+  .about3{
+    position: absolute;
+    top: 200px;
+    left:40%;
+    font-size: 20px;
+    white-space: nowrap
+  }
+  .ieeeras{
+    position: absolute;
+    top: 200px;
+    left:68%;
+    font-size: 20px;
+    white-space: nowrap
+  }
+  #para3{
+    width: 182px;
+    height: 127px;
+    position: absolute;
+    left: 1%;
+    top: 230px;
+    font-size: 10px;
+    font-family: "Kodchasan";
+  }
+  .raslogomob{
+    width: 175px;
+    height: 64px;
+    position: absolute;
+    top: 270px;
+    left: 82%;
+
+  }
+  .about2{
+    position: absolute;
+    top: 400px;
+    left:40%;
+    font-size: 20px;
+    white-space: nowrap
+  }
+  .vitchennai{
+    position: absolute;
+    top: 400px;
+    left:68%;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  .vitlogomob{
+    width: 350px;
+    height: 194.15px;
+    position: absolute;
+    top: 430px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  #para2{
+    width: 359px;
+    height: 114px;
+    position: absolute;
+    top: 640px;
+    font-size: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Kodchasan";
+  }
+}
