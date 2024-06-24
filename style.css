@@ -28,9 +28,18 @@ body {
   width: 100vw;
   background-color: black;
 }
-
+/* .page1 {
+  background-color: red;
+}
+.page2 {
+  background-color: black;
+}
+.page3 {
+  background-color: #222;
+} */
 .images {
   position: relative;
+  /* background-color: bisque; */
   top: -74%;
   left: 68%;
   width: 420px;
@@ -59,3 +68,23 @@ body {
 .para {
   font-size: 20px;
 }
+
+/*MOBILE FRAME*/
+
+/* @media (max-width: 600px) {
+  .text {
+    font-size: 15px;
+    background-color: #222;
+  }
+  .rascadelogo {
+    z-index: 2;
+    position: absolute;
+    left: -270px;
+    top: -10px;
+  }
+  .aboutrascade24 {
+    z-index: 4;
+    position: absolute;
+    top: -100px;
+  }
+} */
