@@ -1,5 +1,5 @@
 gsap.from(".page2 .aboutrascade24, .page2 p,.page2 .about2,.page2 .vitchennai,.page2 .about3,.page2 .ieeeras", {
-  y:300,   
+  y:200,   
   opacity:0,
   delay:1,
   duration:1,
@@ -14,7 +14,7 @@ gsap.from(".page2 .aboutrascade24, .page2 p,.page2 .about2,.page2 .vitchennai,.p
 })
 
 gsap.from(".page2 .rascadelogo, .page2 .raslogo, .page2 .vitlogo", {
-  y:250,
+  y:150,
   opacity:0,
   delay:1,
   duration:1,
