@@ -7,11 +7,11 @@
   color: white;
 }
 
-
 html,
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .text {
@@ -29,15 +29,7 @@ body {
   width: 100vw;
   background-color: black;
 }
-/* .page1 {
-  background-color: red;
-}
-.page2 {
-  background-color: black;
-}
-.page3 {
-  background-color: #222;
-} */
+
 .images {
   position: relative;
   /* background-color: bisque; */
@@ -53,64 +45,74 @@ body {
 .rascadelogo {
   width: 300px;
   padding: 15px;
+  mix-blend-mode: lighten;
 }
 .raslogo {
   position: relative;
   width: 370px;
   padding: 15px;
   top: -8%;
+  mix-blend-mode: lighten;
 }
 .vitlogo {
   width: 450px;
   padding: 15px;
   position: relative;
   top: -12%;
+  mix-blend-mode: lighten;
 }
 .para {
-  font-size: 20px;
+  font-size: 21px;
 }
- @media screen and (min-width:650px) {
+
+.rocket {
+  position: absolute;
+  width: 50px;
+  left: 230px;
+  top: 545px;
+  z-index: 1;
+  rotate: 90deg;
+  mix-blend-mode: lighten;
+}
+
+@media screen and (min-width: 650px) {
   .raslogomob,
-.vitlogomob,
-.rascadelogomob{
-  display: none;
+  .vitlogomob,
+  .rascadelogomob,
+  .rocketmob {
+    display: none;
+  }
 }
-
-}
-
-
 
 /*MOBILE FRAME*/
 
-   @media (max-width: 600px) {
-    * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background-color: black;
-  color: white;
-}
-  page1,
-.page2,
-.page3 {
-  width: 100%;
-  background-color: black;
-}
-.images{
-  display: none;
-}
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+  }
+  .page1,
+  .page2,
+  .page3 {
+    width: 100%;
+    background-color: black;
+  }
+  .images {
+    display: none;
+  }
 
-
-
-  .aboutrascade24{
+  .aboutrascade24 {
     position: absolute;
     top: auto;
-    left:40%;
+    left: 40%;
     font-size: 20px;
-    white-space: nowrap
+    white-space: nowrap;
   }
-  #para1{
+  #para1 {
     width: 227px;
     height: 188px;
     position: absolute;
@@ -119,29 +121,29 @@ body {
     font-size: 10px;
     font-family: "Inter";
   }
-  .rascadelogomob{
+  .rascadelogomob {
     width: 144px;
     height: 138px;
     position: absolute;
     top: 40px;
     left: -12px;
-    
+    mix-blend-mode: lighten;
   }
-  .about3{
+  .about3 {
     position: absolute;
     top: 200px;
-    left:40%;
+    left: 40%;
     font-size: 20px;
-    white-space: nowrap
+    white-space: nowrap;
   }
-  .ieeeras{
+  .ieeeras {
     position: absolute;
     top: 200px;
-    left:68%;
+    left: 68%;
     font-size: 20px;
-    white-space: nowrap
+    white-space: nowrap;
   }
-  #para3{
+  #para3 {
     width: 182px;
     height: 127px;
     position: absolute;
@@ -150,47 +152,47 @@ body {
     font-size: 10px;
     font-family: "Kodchasan";
   }
-  .raslogomob{
+  .raslogomob {
     width: 175px;
     height: 64px;
     position: absolute;
     top: 270px;
     left: 82%;
-
+    mix-blend-mode: lighten;
   }
-  .about2{
+  .about2 {
     position: absolute;
     top: 400px;
-    left:40%;
-    font-size: 20px;
-    white-space: nowrap
-  }
-  .vitchennai{
-    position: absolute;
-    top: 400px;
-    left:68%;
+    left: 40%;
     font-size: 20px;
     white-space: nowrap;
   }
-  .vitlogomob{
+  .vitchennai {
+    position: absolute;
+    top: 400px;
+    left: 68%;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  .vitlogomob {
     width: 350px;
     height: 194.15px;
     position: absolute;
     top: 430px;
     display: block;
-   margin-left: auto;
-   margin-right: auto;
-
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: lighten;
   }
-  #para2{
+  #para2 {
     width: 359px;
     height: 114px;
     position: absolute;
     top: 640px;
     font-size: 10px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Kodchasan";
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Kodchasan";
   }
 }
