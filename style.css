@@ -33,8 +33,9 @@ body {
 .images {
   position: relative;
   /* background-color: bisque; */
-  top: -74%;
+  top: -70%;
   left: 68%;
+  scale: 0.8;
   width: 420px;
   height: 84%;
   display: flex;
@@ -44,19 +45,22 @@ body {
 }
 .rascadelogo {
   width: 300px;
-  padding: 15px;
+  padding: 30px;
+  margin: 30px;
   mix-blend-mode: lighten;
 }
 .raslogo {
   position: relative;
   width: 370px;
-  padding: 15px;
+  padding: 30px;
+  margin: 30px;
   top: -8%;
   mix-blend-mode: lighten;
 }
 .vitlogo {
   width: 450px;
-  padding: 15px;
+  padding: 30px;
+  margin: 30px;
   position: relative;
   top: -12%;
   mix-blend-mode: lighten;
@@ -66,12 +70,12 @@ body {
 }
 
 .rocket {
-  position: absolute;
+  position: relative;
   width: 50px;
-  left: 230px;
-  top: 545px;
+  left: 1100px;
+  top: 245px;
   z-index: 1;
-  rotate: 90deg;
+  rotate: -90deg;
   mix-blend-mode: lighten;
 }
 
@@ -194,5 +198,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: "Kodchasan";
+  }
+  .rocketmob {
+    z-index: 5;
+    rotate: 180deg;
+    scale: 0.2;
+    position: relative;
+    top: 350px;
+    left: -50px;
+    mix-blend-mode: lighten;
   }
 }
